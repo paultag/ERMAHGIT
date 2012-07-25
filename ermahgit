@@ -7,6 +7,6 @@ if [ "x$FILE" = "x" ]; then
     exit 1
 fi
 
-vim $@
+sensible-editor $@
 cat $FILE | ermahgit-translate > /tmp/$$.ermahgit.txt
 mv /tmp/$$.ermahgit.txt $FILE
