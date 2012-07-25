@@ -1,0 +1,7 @@
+#!/bin/bash
+
+FILE=$1
+
+vim $@
+cat $FILE | ermahgit-translate > /tmp/$$.ermahgit.txt
+mv /tmp/$$.ermahgit.txt $FILE
