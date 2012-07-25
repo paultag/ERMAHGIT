@@ -1,6 +1,8 @@
 HERLLER, WERLD!
 
     sudo ./setup.py install
-    export GIT_EDITOR="/usr/local/bin/ermahgit"
 
-And use git as normal.
+and then, in .git/config below the repo you want to taint (otherwise modify
+these instructions as needed) place the following core key:
+
+    editor = /usr/local/bin/ermahgit
