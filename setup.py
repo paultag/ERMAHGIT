@@ -12,11 +12,15 @@ setup(
         'ermahgerd'
     ],
 
+    scripts=[
+        'ermahgit',
+        'ermahgit-translate'
+    ],
+
     author       = "Paul Tagliamonte",
     author_email = "paultag@debian.org",
     description      = 'foobar',
     license          = "Expat",
     url              = "http://pault.ag",
-    platforms        = ['any'],
-    scripts=['ermahgit', 'ermahgit-translate']
+    platforms        = ['any']
 )
