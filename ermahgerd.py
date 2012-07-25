@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# Shamelessly yanked from:
+# http://www.reddit.com/r/funny/comments/x2xn0/my_evening_project_a_text_to_ermahgerd_translator/
 
 import re
 
