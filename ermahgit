@@ -2,6 +2,11 @@
 
 FILE=$1
 
+if [ "x$FILE" = "x" ]; then
+    echo "Need a file."
+    exit 1
+fi
+
 vim $@
 cat $FILE | ermahgit-translate > /tmp/$$.ermahgit.txt
 mv /tmp/$$.ermahgit.txt $FILE
