@@ -22,7 +22,8 @@ exps = {
     r'ERWERSERME': 'ERSUM',
     r'GERSERBERMPS': 'GERSBERMS',
     r'MAHMAH': 'MERM',
-    r'MAHME': 'MERM'
+    r'MAHME': 'MERM',
+    r'ERER': 'ER'
 }
 
 def translate(text):
